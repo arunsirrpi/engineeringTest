@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AbcTest</string>
+    <string name="article_count">Total no. of articles: %d</string>
+</resources>
