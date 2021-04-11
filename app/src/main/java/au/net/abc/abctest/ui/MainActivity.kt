@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity(), OnArticlesLoadListener {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         list = findViewById(R.id.list)
-        mainAdapter = MainAdapter(::onItemClickListener)
+        mainAdapter = MainAdapter()
         list?.layoutManager = LinearLayoutManager(this)
         list?.adapter = mainAdapter
         findViewById<TextView>(R.id.articleCount).text = getString(R.string.article_count, 0)
